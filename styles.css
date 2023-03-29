@@ -16,7 +16,8 @@
 .holder { 
   display: flex;
   flex-direction: row;
-	gap: 50px;
+justify-content:space-between;
+	flex-wrap: wrap;
 }
 .holder > div {
   width: 80px;
